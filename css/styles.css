@@ -59,12 +59,13 @@ header {
 
 header .secondary h2 {
   font-size: 2em;
-  flex: 1 0 auto;
+  flex: 0 1 auto;
+  line-height: 1;
   margin-top: 0;
 }
 
 header nav {
-  flex: 1 0 auto;
+  flex: 0 1 auto;
   display: flex;
   justify-content: center;
 }
