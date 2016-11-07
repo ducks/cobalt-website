@@ -6,18 +6,25 @@
   --yellow: #F1982A;
   --dark-yellow: #A15700;
   --light-yellow: #FFC47C;
+  --med-light-yellow: #FFB253;
+  --med-dark-yellow: #CB750C;
 
   --blue: #226D9A;
   --dark-blue: #064266;
   --light-blue: #639DC0;
+  --med-light-blue: #3C7EA5;
+  --med-dark-blue: #0E5681;
 
   --green: #1DA962;
   --dark-green: #007138;
   --light-green: #63CB96;
+  --med-light-green: #3BB577;
+  --med-dark-green: #088E4A;
 
   --dark-grey: #58585A;
   --med-grey: #818285;
   --light-grey: #D1D2D4;
+  --med-dark-grey: #6D6E71;
 
   --black: #000;
   --white: #fff;
@@ -164,7 +171,7 @@ pre code {
 .button.docs:hover,
 .button.docs:active,
 .button.docs:focus {
-  background: var(--light-blue);
+  background: var(--med-light-blue);
 }
 
 .button.install {
@@ -172,10 +179,16 @@ pre code {
   border: 1px solid var(--dark-green);
 }
 
+.button.install:hover,
+.button.install:active,
+.button.install:focus {
+  background: var(--med-light-green);
+}
+
 .button.contrib:hover,
 .button.contrib:active,
 .button.contrib:focus {
-  background: var(--light-yellow);
+  background: var(--med-light-yellow);
 }
 
 .button.contrib {
@@ -183,11 +196,7 @@ pre code {
   border: 1px solid var(--dark-yellow);
 }
 
-.button.install:hover,
-.button.install:active,
-.button.install:focus {
-  background: var(--light-green);
-}
+
 
 .button.github {
   background: var(--dark-grey);
@@ -197,7 +206,7 @@ pre code {
 .button.github:hover,
 .button.github:active,
 .button.github:focus {
-  background: var(--light-grey);
+  background: var(--med-grey);
 }
 
 @media (min-width: 41em) {
